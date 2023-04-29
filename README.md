@@ -18,6 +18,7 @@ public class UcakBileti {
         yolculuktipi=input.nextInt();
         fiyat = mesafe*0.10;
         if(mesafe>0&&yas>=0){
+        
             if(yolculuktipi==1||yolculuktipi==2){
                 if(yolculuktipi==1){
                     if(yas<12){
