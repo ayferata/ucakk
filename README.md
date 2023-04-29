@@ -23,6 +23,7 @@ public class UcakBileti {
                 if(yolculuktipi==1){
                     if(yas<12){
                         fiyat=fiyat-fiyat*0.5;
+                        
                     } else if(yas<12&&yas<24){
                         fiyat=fiyat-fiyat*0.1;
                     } else if(yas>65){
