@@ -1,7 +1,7 @@
 # ucakk
-package BKosulluIfadeler;
 import java.util.Scanner;
-public class Odev14UcakBileti {
+
+public class UcakBileti {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int yas,yolculuktipi;
