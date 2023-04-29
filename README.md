@@ -50,7 +50,8 @@ public class UcakBileti {
                 
             }
         }else{
-            System.out.println("Hatalı bilgi girdiniz.");
+            System.out.println("Hatalı bilgi girdiniz." );
+            
         }
         System.out.println("Toplam tutar:"+fiyat+"TL");
     }
