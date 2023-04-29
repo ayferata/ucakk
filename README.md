@@ -2,10 +2,12 @@
 import java.util.Scanner;
 
 public class UcakBileti {
+
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int yas,yolculuktipi;
         double fiyat,mesafe;
+        
         System.out.println("Mesafe giriniz(KM):");
         mesafe=input.nextDouble();
         System.out.println("Yaşınızı giriniz:");
