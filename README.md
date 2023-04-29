@@ -8,9 +8,10 @@ public class UcakBileti {
         int yas,yolculuktipi;
         double fiyat,mesafe;
         
-        System.out.println("Mesafe giriniz(KM):");
+        System.out.println("Mesafe giriniz(KM):" );
         mesafe=input.nextDouble();
-        System.out.println("Yaşınızı giriniz:");
+        
+        System.out.println("Yaşınızı giriniz:" );
         yas=input.nextInt();
         System.out.println("Yolculuk tipi giriniz:\n1-Tek yön\n2-Gidiş-Dönüş");
         yolculuktipi=input.nextInt();
