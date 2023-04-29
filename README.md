@@ -13,7 +13,8 @@ public class UcakBileti {
         
         System.out.println("Yaşınızı giriniz:" );
         yas=input.nextInt();
-        System.out.println("Yolculuk tipi giriniz:\n1-Tek yön\n2-Gidiş-Dönüş");
+        
+        System.out.println("Yolculuk tipi giriniz:\n1-Tek yön\n2-Gidiş-Dönüş" );
         yolculuktipi=input.nextInt();
         fiyat = mesafe*0.10;
         if(mesafe>0&&yas>=0){
